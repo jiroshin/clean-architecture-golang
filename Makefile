@@ -24,11 +24,6 @@ unit_tests:
 	EXTRA_ARGS="" \
 	./scripts/tests.sh
 
-#update golden files
-unit_tests_update:
-	EXTRA_ARGS="-update" \
-	./scripts/tests.sh
-
 start_db_and_run_integration_tests: ENV_FILE := cli-test-env
 start_db_and_run_integration_tests: | start_db migrate_db run_integration_tests
 
