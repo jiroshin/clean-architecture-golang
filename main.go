@@ -1,7 +1,7 @@
 package main
 
-import "jiroshin/clean-architecture-golang/infrastructure/server"
+import "jiroshin/clean-architecture-golang/infrastructure/api"
 
 func main() {
-	server.StartServe()
+	api.StartServe()
 }

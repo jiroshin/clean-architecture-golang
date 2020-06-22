@@ -1,0 +1,8 @@
+export DB_USER=postgres
+export DB_PASSWORD=postgres
+export DB_NAME=postgres
+export DB_HOST=localhost
+export DB_PORT=5432
+export SERVER_PORT=8080
+export COMPOSE_PROJECT_NAME=go-test-app
+export DOCKER_IMAGE=postgres:9-alpine
