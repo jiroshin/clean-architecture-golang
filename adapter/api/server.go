@@ -2,7 +2,7 @@ package api
 
 import (
 	"database/sql"
-	"jiroshin/clean-architecture-golang/infrastructure/api/router"
+	"jiroshin/clean-architecture-golang/adapter/api/router"
 	"jiroshin/clean-architecture-golang/infrastructure/database"
 	"log"
 	"net/http"

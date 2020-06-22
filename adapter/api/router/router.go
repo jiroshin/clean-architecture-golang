@@ -2,8 +2,8 @@ package router
 
 import (
 	"database/sql"
-	"jiroshin/clean-architecture-golang/infrastructure/api/handler"
-	"jiroshin/clean-architecture-golang/infrastructure/api/registry"
+	"jiroshin/clean-architecture-golang/adapter/api/handler"
+	"jiroshin/clean-architecture-golang/adapter/api/registry"
 	"net/http"
 
 	"github.com/gorilla/mux"
